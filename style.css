@@ -43,7 +43,7 @@ main[id="page"] p {
 }
 
 .sky {
-	background: url("https://64.media.tumblr.com/04172a5e25ef95894e561e6f560c47a8/tumblr_oqx3xabGCS1uhjffgo1_500.gif");
+	background: url("https://media.giphy.com/media/T1zgJ7cp8tWla/source.gif");
 	background-size: 101% 101%;
 	border-radius: 100px;
 	width: 540px;
@@ -61,5 +61,14 @@ main[id="page"] p {
 	width: 180px;
 	height: 180px;
 	border-radius: 100px;
+	margin: 10px;
 }
 
+div[id="skyElement4"] {
+	background: url("https://64.media.tumblr.com/346ac9ca3683a7360015ef53c8185d3c/tumblr_pnnzrvwjU61r30p8ao8_500.gifv") 10px 0px;
+	background-size: 170% 101%;
+	width: 180px;
+	height: 180px;
+	border-radius: 100px;
+	margin: 10px;
+}

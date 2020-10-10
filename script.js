@@ -1,3 +1,6 @@
+/* -------- Animation Rotation --------- */
+
+
 function animationRotation(element, degreeRotation, angleRotation, rotationSpeed) {
 	if (angleRotation == 'positive') {
 		degreeRotation += rotationSpeed;
@@ -19,6 +22,75 @@ function animationRotation(element, degreeRotation, angleRotation, rotationSpeed
 		animationRotation(element, degreeRotation, angleRotation, rotationSpeed);
 	});
 }
+
+
+let rotateImage1 = document.getElementById('rotateImage1'),
+    rotateImage2 = document.getElementById('rotateImage2'),
+    sky = document.getElementById('sky'),
+    skyElement1 = document.getElementById('skyElement1'),
+    skyElement2 = document.getElementById('skyElement2'),
+    skyElement3 = document.getElementById('skyElement3'),
+    skyElement4 = document.getElementById('skyElement4');
+
+let paragraph = document.getElementById('paragraph');
+
+let elementsToRotate = [{
+		element: skyElement2,
+		degreeRotation: 0,
+		angleRotation: 'negative',
+		speedRotation: 1.5,
+	},
+	{
+		element: rotateImage1,
+		degreeRotation: 0,
+		angleRotation: 'positive',
+		speedRotation: 0.5,
+	},
+	{
+		element: rotateImage2,
+		degreeRotation: 0,
+		angleRotation: 'negative',
+		speedRotation: 0.5,
+	},
+	{
+		element: sky,
+		degreeRotation: 0,
+		angleRotation: 'positive',
+		speedRotation: 0.5,
+	},
+	{
+		element: skyElement1,
+		degreeRotation: 0,
+		angleRotation: 'negative',
+		speedRotation: 1,
+	},
+	{
+		element: skyElement3,
+		degreeRotation: 0,
+		angleRotation: 'negative',
+		speedRotation: 0.5,
+	},
+	{
+		element: skyElement4,
+		degreeRotation: 270,
+		angleRotation: 'negative',
+		speedRotation: 2,
+	}
+];
+
+for (let i = 0, c = elementsToRotate.length; i < c; i++) {
+	let elementsToRotateInfo = [];
+
+	for (let id in elementsToRotate[i]) {
+		elementsToRotateInfo.push(elementsToRotate[i][id]);
+	}
+
+	animationRotation(elementsToRotateInfo[0], elementsToRotateInfo[1], elementsToRotateInfo[2], elementsToRotateInfo[3]);
+}
+
+
+/* --------- Animation ( apparition disparition ) ---------- */
+
 
 function disappearReappearAnimation(element, opacityElement, isImageVisible) {
 	let animationPause = false;
@@ -52,59 +124,10 @@ function disappearReappearAnimation(element, opacityElement, isImageVisible) {
 }
 
 
-let rotateImage1 = document.getElementById('rotateImage1'),
-    rotateImage2 = document.getElementById('rotateImage2'),
-    sky = document.getElementById('sky'),
-    skyElement1 = document.getElementById('skyElement1'),
-    skyElement2 = document.getElementById('skyElement2');
-
-let paragraph = document.getElementById('paragraph');
-
-let elementsToRotate = [{
-		element: skyElement2,
-		degreeRotation: 0,
-		angleRotation: 'negative',
-		speedRotation: 1.5,
-	},
-	{
-		element: rotateImage1,
-		degreeRotation: 0,
-		angleRotation: 'positive',
-		speedRotation: 0.5,
-	},
-	{
-		element: rotateImage2,
-		degreeRotation: 0,
-		angleRotation: 'negative',
-		speedRotation: 0.5,
-	},
-	{
-		element: sky,
-		degreeRotation: 0,
-		angleRotation: 'positive',
-		speedRotation: 0.5,
-	},
-	{
-		element: skyElement1,
-		degreeRotation: 0,
-		angleRotation: 'negative',
-		speedRotation: 1,
-	}
-];
-
-for (let i = 0, c = elementsToRotate.length; i < c; i++) {
-	let elementsToRotateInfo = [];
-
-	for (let id in elementsToRotate[i]) {
-		elementsToRotateInfo.push(elementsToRotate[i][id]);
-	}
-
-	animationRotation(elementsToRotateInfo[0], elementsToRotateInfo[1], elementsToRotateInfo[2], elementsToRotateInfo[3]);
-}
-
 
 let disappearReappearImage1 = document.getElementById('disappearReappearImage1');
 let opacityImage1 = 1, isImage1Visible = true;
 
 
 disappearReappearAnimation(disappearReappearImage1, opacityImage1, isImage1Visible);
+

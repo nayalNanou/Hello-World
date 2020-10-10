@@ -25,6 +25,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sit amet sceleri
 			<div class="sky" id="sky">
 				<img src="https://acegif.com/wp-content/uploads/2020/07/anime-sleep.gif" class="skyElement" id="skyElement1" alt="pic5" />
 				<img src="https://gifimage.net/wp-content/uploads/2017/07/anime-gif-tumblr-25.gif" class="skyElement" id="skyElement2" alt="pic6" />
+				<img src="https://pa1.narvii.com/6734/9ea5e0bd8697e13baba1f944bdd2c703a2efd448_hq.gif" class="skyElement" id="skyElement3" alt="pic7" />
+				<div class="skyElement" id="skyElement4" /></div>
 			</div>
 
 			<p id="paragraph"></p>
