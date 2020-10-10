@@ -16,3 +16,20 @@ h1 {
 	font-style: italic;
 	font-size: 1.7em;
 }
+
+main[id="page"] p {
+	padding: 10px;
+}
+
+.imageType1 {
+	width: 200px;
+	height: 180px;
+	border-radius: 4px;
+	transition: all linear 400ms;
+	margin-right: 10px;
+	margin-bottom: 8px;
+}
+
+.imageType1:hover {
+	box-shadow: 5px 5px 40px #AFAFAF;
+}
