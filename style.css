@@ -34,3 +34,9 @@ main[id="page"] p {
 .imageType1:hover {
 	box-shadow: 5px 5px 40px #AFAFAF;
 }
+
+.rotateImage {
+	width: 200px;
+	height: 210px;
+	border-radius: 4px;
+}
