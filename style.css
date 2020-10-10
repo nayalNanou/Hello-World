@@ -46,11 +46,10 @@ main[id="page"] p {
 	background: url("https://media.giphy.com/media/T1zgJ7cp8tWla/source.gif");
 	background-size: 101% 101%;
 	border-radius: 100px;
-	width: 540px;
-	height: 500px;
+	width: 455px;
+	height: 455px;
 	margin: auto;
 	margin-top: 50px;
-	margin-bottom: 10px;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
@@ -71,4 +70,21 @@ div[id="skyElement4"] {
 	height: 180px;
 	border-radius: 100px;
 	margin: 10px;
+}
+
+footer {
+	height: 160px;
+	background: #AF7F7F;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-top: 40px;
+}
+
+footer p {
+	text-align: center;
+	letter-spacing: 2em;
+	font-size: 2em;
+	color: white;
+	font-style: italic;
 }

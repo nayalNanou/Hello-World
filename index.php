@@ -32,6 +32,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sit amet sceleri
 			<p id="paragraph"></p>
 		</main>
 
+		<footer>
+			<p>Lorem Ipsum</p>
+		</footer>
+
 		<script src="script.js"></script>
 	</body>
 </html>
