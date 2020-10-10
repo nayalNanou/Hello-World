@@ -23,7 +23,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sit amet sceleri
 			</p>
 
 			<div class="sky" id="sky">
-				<img src="https://i.stack.imgur.com/vNaFX.gif" class="skyElement" id="skyElement1" alt="pic5" />
+				<img src="https://acegif.com/wp-content/uploads/2020/07/anime-sleep.gif" class="skyElement" id="skyElement1" alt="pic5" />
+				<img src="https://gifimage.net/wp-content/uploads/2017/07/anime-gif-tumblr-25.gif" class="skyElement" id="skyElement2" alt="pic6" />
 			</div>
 
 			<p id="paragraph"></p>

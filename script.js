@@ -55,11 +55,18 @@ function disappearReappearAnimation(element, opacityElement, isImageVisible) {
 let rotateImage1 = document.getElementById('rotateImage1'),
     rotateImage2 = document.getElementById('rotateImage2'),
     sky = document.getElementById('sky'),
-    skyElement1 = document.getElementById('skyElement1');
+    skyElement1 = document.getElementById('skyElement1'),
+    skyElement2 = document.getElementById('skyElement2');
 
 let paragraph = document.getElementById('paragraph');
 
 let elementsToRotate = [{
+		element: skyElement2,
+		degreeRotation: 0,
+		angleRotation: 'negative',
+		speedRotation: 1.5,
+	},
+	{
 		element: rotateImage1,
 		degreeRotation: 0,
 		angleRotation: 'positive',
