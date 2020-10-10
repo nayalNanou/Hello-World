@@ -8,6 +8,8 @@
 	</head>
 
 	<body>
+		<h1>Titre principale de la page</h1>
+
 		<script src="script.jps"></script>
 	</body>
 </html>
