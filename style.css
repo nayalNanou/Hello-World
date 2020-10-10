@@ -41,3 +41,19 @@ main[id="page"] p {
 	border-radius: 10px;
 	margin: 10px;
 }
+
+.sky {
+	background: url("https://64.media.tumblr.com/04172a5e25ef95894e561e6f560c47a8/tumblr_oqx3xabGCS1uhjffgo1_500.gif");
+	background-size: 101% 101%;
+	border-radius: 100px;
+	width: 540px;
+	height: 500px;
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 10px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+}
+

@@ -1,21 +1,12 @@
-let rotateImage1 = document.getElementById('rotateImage1'),
-    rotateImage2 = document.getElementById('rotateImage2');
-
-let degreeRotationImage1 = 0,
-    degreeRotationImage2 = 0;
-
-let disappearReappearImage1 = document.getElementById('disappearReappearImage1');
-let opacityImage1 = 1, isImage1Visible = true;
-
-function animationRotation(element, degreeRotation, angleRotation) {
+function animationRotation(element, degreeRotation, angleRotation, rotationSpeed) {
 	if (angleRotation == 'positive') {
-		degreeRotation += 0.5;
+		degreeRotation += rotationSpeed;
 
 		if (degreeRotation >= 360) {
 			degreeRotation = 0;
 		}
 	} else if (angleRotation == 'negative') {
-		degreeRotation -= 0.5;
+		degreeRotation -= rotationSpeed;
 
 		if (degreeRotation <= -360) {
 			degreeRotation = 0;
@@ -25,14 +16,9 @@ function animationRotation(element, degreeRotation, angleRotation) {
 	element.style.transform = 'rotate(' + degreeRotation + 'deg)';
 
 	window.requestAnimationFrame(function() {
-		animationRotation(element, degreeRotation, angleRotation);
+		animationRotation(element, degreeRotation, angleRotation, rotationSpeed);
 	});
 }
-
-animationRotation(rotateImage1, degreeRotationImage1, 'positive');
-
-animationRotation(rotateImage2, degreeRotationImage2, 'negative');
-
 
 function disappearReappearAnimation(element, opacityElement, isImageVisible) {
 	let animationPause = false;
@@ -64,5 +50,47 @@ function disappearReappearAnimation(element, opacityElement, isImageVisible) {
 		}, 2000);
 	}
 }
+
+
+let rotateImage1 = document.getElementById('rotateImage1'),
+    rotateImage2 = document.getElementById('rotateImage2'),
+    sky = document.getElementById('sky');
+
+let paragraph = document.getElementById('paragraph');
+
+let elementsToRotate = [{
+		element: rotateImage1,
+		degreeRotation: 0,
+		angleRotation: 'positive',
+		speedRotation: 0.5,
+	},
+	{
+		element: rotateImage2,
+		degreeRotation: 0,
+		angleRotation: 'negative',
+		speedRotation: 0.5,
+	},
+	{
+		element: sky,
+		degreeRotation: 0,
+		angleRotation: 'positive',
+		speedRotation: 0.5,
+	}
+];
+
+for (let i = 0, c = elementsToRotate.length; i < c; i++) {
+	let elementsToRotateInfo = [];
+
+	for (let id in elementsToRotate[i]) {
+		elementsToRotateInfo.push(elementsToRotate[i][id]);
+	}
+
+	animationRotation(elementsToRotateInfo[0], elementsToRotateInfo[1], elementsToRotateInfo[2], elementsToRotateInfo[3]);
+}
+
+
+let disappearReappearImage1 = document.getElementById('disappearReappearImage1');
+let opacityImage1 = 1, isImage1Visible = true;
+
 
 disappearReappearAnimation(disappearReappearImage1, opacityImage1, isImage1Visible);
