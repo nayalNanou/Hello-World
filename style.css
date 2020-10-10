@@ -19,6 +19,7 @@ h1 {
 
 main[id="page"] p {
 	padding: 10px;
+	font-size: 1.2em;
 }
 
 .imageType1 {
@@ -27,7 +28,7 @@ main[id="page"] p {
 	border-radius: 4px;
 	transition: all linear 400ms;
 	margin-right: 10px;
-	margin-bottom: 8px;
+	float: left;
 }
 
 .imageType1:hover {
