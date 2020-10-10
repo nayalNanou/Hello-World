@@ -57,3 +57,9 @@ main[id="page"] p {
 	align-items: center;
 }
 
+.skyElement {
+	width: 180px;
+	height: 180px;
+	border-radius: 100px;
+	box-shadow: 0px 0px 20px black;
+}

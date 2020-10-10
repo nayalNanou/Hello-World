@@ -23,7 +23,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sit amet sceleri
 			</p>
 
 			<div class="sky" id="sky">
-
+				<img src="https://i.stack.imgur.com/vNaFX.gif" class="skyElement" id="skyElement1" alt="pic5" />
 			</div>
 
 			<p id="paragraph"></p>
