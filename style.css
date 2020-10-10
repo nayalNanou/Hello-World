@@ -35,7 +35,7 @@ main[id="page"] p {
 	box-shadow: 5px 5px 40px #AFAFAF;
 }
 
-.rotateImage {
+.rotateImage, .disappearReappearImage {
 	width: 190px;
 	height: 200px;
 	border-radius: 10px;

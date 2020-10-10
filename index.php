@@ -19,6 +19,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sit amet sceleri
 			<p>
 				<img src="https://4.bp.blogspot.com/-vmmGa0jq0TM/UukXTF0NmBI/AAAAAAAACfg/Qx31p7pVC48/s1600/Dance+020.gif" class="rotateImage" id="rotateImage1" />
 				<img src="https://media.tenor.com/images/1d4d4864c02aa7026b18b76479ad6bc3/tenor.gif" class="rotateImage" id="rotateImage2" />
+				<img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/603f335b-75d7-4b0b-b988-857ca4dee307/d6arol8-f33fc832-cac0-42d0-846d-d32b53e647d6.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwic3ViIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsImF1ZCI6WyJ1cm46c2VydmljZTpmaWxlLmRvd25sb2FkIl0sIm9iaiI6W1t7InBhdGgiOiIvZi82MDNmMzM1Yi03NWQ3LTRiMGItYjk4OC04NTdjYTRkZWUzMDcvZDZhcm9sOC1mMzNmYzgzMi1jYWMwLTQyZDAtODQ2ZC1kMzJiNTNlNjQ3ZDYuZ2lmIn1dXX0.lfIuxKF7B2jCQH3mjBRPB0yPbajlG1ej1ngj4zz_kbc" class="disappearReappearImage" id="disappearReappearImage1" />
 			</p>
 		</main>
 
