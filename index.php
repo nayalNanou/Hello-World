@@ -18,6 +18,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sit amet sceleri
 
 			<p>
 				<img src="https://4.bp.blogspot.com/-vmmGa0jq0TM/UukXTF0NmBI/AAAAAAAACfg/Qx31p7pVC48/s1600/Dance+020.gif" class="rotateImage" id="rotateImage1" />
+				<img src="https://media.tenor.com/images/1d4d4864c02aa7026b18b76479ad6bc3/tenor.gif" class="rotateImage" id="rotateImage2" />
 			</p>
 		</main>
 

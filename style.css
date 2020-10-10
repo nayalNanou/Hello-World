@@ -36,7 +36,8 @@ main[id="page"] p {
 }
 
 .rotateImage {
-	width: 200px;
-	height: 210px;
-	border-radius: 4px;
+	width: 190px;
+	height: 200px;
+	border-radius: 10px;
+	margin: 10px;
 }
