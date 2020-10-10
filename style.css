@@ -17,6 +17,11 @@ h1 {
 	font-size: 1.7em;
 }
 
+main[id="page"] {
+	width: 800px;
+	margin: auto;
+}
+
 main[id="page"] p {
 	padding: 10px;
 	font-size: 1.2em;
@@ -87,4 +92,32 @@ footer p {
 	font-size: 2em;
 	color: white;
 	font-style: italic;
+}
+
+header {
+	background: #7FAF7F;
+	height: 180px;
+	position: relative;
+	display: flex;
+	align-items: center;
+}
+
+header p {
+	text-align: center;
+	padding: 20px;
+	width: 60%;
+	letter-spacing: 1.5em;
+	font-size: 1.6em;
+	color: white;
+}
+
+header .moon {
+	background: url("https://gifimage.net/wp-content/uploads/2017/08/lewd-anime-gif-6-1.gif");
+	background-size: 101% 101%;
+	position: absolute;
+	top: 30px;
+	right: 0px;
+	width: 240px;
+	height: 120px;
+	border-radius: 60px 0px 0px 60px;
 }
