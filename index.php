@@ -10,7 +10,21 @@
 	<body>
 		<header>
 			<p>Proin hendrerit tincidunt</p>
-			<div class="moon"></div>
+			<div class="moon" id="moon">
+				<nav id="navigation" class="navigation">
+					<ul>
+						<li>Pages</li>
+						<li>Sign on</li>
+					</ul>
+				</nav>
+
+				<div class="links" id="links">
+					<a href="index.php">Page d'accueil</a>
+					<a href="#">Page 1</a>
+					<a href="#">Page 2</a>
+					<a href="#">Page 3</a>
+				</div>
+			</div>
 		</header>
 
 		<h1>Titre principale de la page</h1>

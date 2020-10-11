@@ -18,7 +18,7 @@ h1 {
 }
 
 main[id="page"] {
-	width: 800px;
+	max-width: 800px;
 	margin: auto;
 }
 
@@ -120,4 +120,88 @@ header .moon {
 	width: 240px;
 	height: 120px;
 	border-radius: 60px 0px 0px 60px;
+	transition: all linear 200ms;
 }
+
+header .moon:hover {
+	box-shadow: 0px 0px 10px black;
+}
+
+.moon nav {
+	background: #2F2F2F;
+	width: 240px;
+	color: white;
+	position: absolute;
+	right: 0px;
+	bottom: -119px;
+	border-radius: 40px 0px 0px 40px;
+	transition: all linear 200ms;
+	z-index: 4;
+	box-shadow: 0px 0px 60px #3F3F3F inset;
+}
+
+.moon nav:hover {
+	box-shadow: 0px 0px 10px black;
+}
+
+.moon nav ul {
+	list-style-type: none;
+	position: relative;
+	z-index: 3;
+}
+
+.moon nav li {
+	color: white;
+	margin: 10px 0px;
+	font-size: 1.5em;
+	border-radius: 20px 0px 0px 20px;
+	padding: 6px 0px;
+	padding-left: 40px;
+	transition: all linear 400ms;
+	position: relative;
+	z-index: 2;
+	background: #3F3F3F;
+}
+
+.moon nav li:hover {
+	box-shadow: 0px 0px 10px white;
+}
+
+.links {
+	background: #2F2F2F;
+	box-shadow: 0px 0px 80px #3F3F3F inset;
+	display: flex;
+	align-items: flex-start;
+	flex-direction: column;
+	position: absolute;
+	width: 240px;
+	left: -190px;
+	top: 119px;
+	border-radius: 10px;
+	transition: all linear 300ms;
+}
+
+.links:hover {
+	box-shadow: 0px 0px 10px black;
+}
+
+.links a {
+	border-radius: 10px;
+	display: block;
+	width: 70%;
+	text-decoration: none;
+	width: 60%;
+	margin: 6px 0px;
+	color: white;
+	padding: 6px 8px;
+	font-size: 1.2em;
+	font-style: italic;
+	margin-left: 10px;
+	transition: all linear 400ms;
+	background: #3F3F3F;
+}
+
+.links a:hover {
+	box-shadow: 0px 0px 6px white;
+}
+

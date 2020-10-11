@@ -1,3 +1,37 @@
+
+let navigation = document.getElementById('navigation'),
+    moon = document.getElementById('moon');
+
+let linksNavigation = document.querySelectorAll('.navigation ul li');
+
+let links = document.getElementById('links');
+
+navigation.style.display = 'none';
+links.style.display = 'none';
+
+moon.addEventListener('mouseover', function(e) {
+	navigation.style.display = 'block';
+});
+
+moon.addEventListener('mouseout', function(e) {
+	navigation.style.display = 'none';
+
+	let relatedTarget = e.relatedTarget;
+
+	while (relatedTarget != this && relatedTarget.nodeName != 'BODY' && relatedTarget != 'document') {
+		relatedTarget = relatedTarget.parentNode;
+	}
+
+	if (relatedTarget != this) {
+		links.style.display = 'none';
+	}
+});
+
+linksNavigation[0].addEventListener('mouseover', function(e) {
+	links.style.display = 'block';
+});
+
+
 /* -------- Animation Rotation --------- */
 
 
